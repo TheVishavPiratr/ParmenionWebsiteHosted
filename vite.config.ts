@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ParmenionWebsiteHosted/',
+  base: '/',
   server: {
     watch: {
       ignored: ['**/Screenshot*.png', '**/*.mp4'],
